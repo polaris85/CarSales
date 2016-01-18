@@ -1,0 +1,16 @@
+PODS:
+  - MZAppearance (1.1.1)
+  - MZFormSheetController (2.2.2):
+    - MZAppearance (~> 1.1.1)
+  - Reachability (3.1.1)
+
+DEPENDENCIES:
+  - MZFormSheetController (~> 2.2.2)
+  - Reachability (~> 3.1.1)
+
+SPEC CHECKSUMS:
+  MZAppearance: 8b02683f0019f725557ae9839ed6cab153fff669
+  MZFormSheetController: d4424b0d38c6c155aa99523a6642323ede1ceda7
+  Reachability: be4883bb93f31e38266ae3365e5600a317aae735
+
+COCOAPODS: 0.29.0

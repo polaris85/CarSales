@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1810" systemVersion="12A269" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="CDFavorites" representedClassName="CDFavorites" syncable="YES">
+        <attribute name="carGrade" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="carId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="carName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="carOdd" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="carPref" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="carPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="carYear" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="created" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="isDel" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isNew" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isSmallImage" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="thumd" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CDHistory" representedClassName="CDHistory" syncable="YES">
+        <attribute name="created" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="dicQuery" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="isData" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="strQuery" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CDPref" representedClassName="CDPref" syncable="YES">
+        <attribute name="prefCode" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="prefName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sessionCode" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="sessionName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CDRecents" representedClassName="CDRecents" syncable="YES">
+        <attribute name="carGrade" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="carId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="carName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="carOdd" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="carPref" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="carPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="carYear" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="created" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="isDel" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isNew" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isSmallImage" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="thumd" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CDShashu" representedClassName="CDShashu" syncable="YES">
+        <attribute name="makerCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="makerName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shashuCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shashuName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CDFavorites" positionX="160" positionY="192" width="128" height="225"/>
+        <element name="CDHistory" positionX="160" positionY="192" width="128" height="120"/>
+        <element name="CDPref" positionX="160" positionY="192" width="128" height="105"/>
+        <element name="CDRecents" positionX="160" positionY="192" width="128" height="225"/>
+        <element name="CDShashu" positionX="160" positionY="192" width="128" height="105"/>
+    </elements>
+</model>
